@@ -6,7 +6,7 @@ exports.handler = async (event, context) => {
    event = JSON.stringify(event,null,4)
   try {
      
-    await axios.get(`https://api.telegram.org/bot1010971485:AAG2_V2CFtcdqV3C9EV3d1_vwi4N3wf3GCo/sendMessage?chat_id=986940575&text=${event}`)
+    await axios.get(`https://api.telegram.org/bot1352165270:AAFG0W1TR9JGeVBab9ZsU60q8wFO1LPTM5I/sendMessage?chat_id=-1001193804673&text=${event}`)
       .then(function (response) {
         console.log(response.body)
       })
